@@ -16,7 +16,7 @@ if (number2 != 0)
   }
   else
   {
-    int ost = number1 % number2; //остаток от деления чисел 34/5 = 6 (остаток 4)
+    int ost = number1 % number2; 
     Console.WriteLine($"Первое число {number1} не кратно второму числу {number2}. Остаток от деления чисел: " + ost);
   }}
 else

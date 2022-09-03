@@ -4,11 +4,11 @@
 // 85 -> 8
 
 Random rand = new Random();
-int number = rand.Next(10,100); // [10,100)
+int number = rand.Next(10,100); 
 
 Console.WriteLine($"Сгенерировалось случайное число {number}");
-int digit2 = number % 10; //остаток от деления на 10
-int digit1 = number / 10; //целая цасть от деления на 10
+int digit2 = number % 10; 
+int digit1 = number / 10; 
 
 Console.WriteLine(digit1);
 Console.WriteLine(digit2);

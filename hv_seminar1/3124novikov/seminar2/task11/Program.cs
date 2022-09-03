@@ -4,13 +4,13 @@
 // 918 -> 98
 
 Random rand = new Random();
-int number = rand.Next(100,1000); // [100,1000) числа от 100 до 999
+int number = rand.Next(100,1000); 
 
 Console.WriteLine($"Сгенерировалось случайное число: {number}");
-int digit3 = number % 10; //остаток от деления на 10
-int digit1 = number / 100;//целое от деления на 100
+int digit3 = number % 10; 
+int digit1 = number / 100;
 
-int result = digit1 * 10 + digit3; // умножаем количество десятков на 10
+int result = digit1 * 10 + digit3; 
 // Console.WriteLine(digit1);
 // Console.WriteLine(digit3);
 

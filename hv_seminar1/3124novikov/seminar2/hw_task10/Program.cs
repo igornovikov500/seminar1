@@ -4,16 +4,15 @@
 // 918 -> 1
 
 
-//Работает как для положительных, так и для отрицательных чисел
 
 Console.WriteLine("Введите трехзначное число:");
 int number = Convert.ToInt32(Console.ReadLine());
 
-if (Math.Abs(number) >= 100 && Math.Abs(number) < 1000)  //проверка на трехзначность
+if (Math.Abs(number) >= 100 && Math.Abs(number) < 1000)  
 {
-  int digit12 = number / 10; //целое от деления на 10 --> первые 2 цифры числа
-  int digit2 = digit12 % 10; //остаток от деления на 10 первых двух цифр --> вторая цифра 
-  Console.WriteLine($"Вторая цифра числа {number}: {Math.Abs(digit2)}"); // убирает знак у отрицательных чисел
+  int digit12 = number / 10; 
+  int digit2 = digit12 % 10; 
+  Console.WriteLine($"Вторая цифра числа {number}: {Math.Abs(digit2)}"); 
 }
 else
 {

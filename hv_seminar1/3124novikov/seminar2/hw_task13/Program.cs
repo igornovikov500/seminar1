@@ -5,7 +5,6 @@
 
 
 
-//Работает как для положительных, так и для отрицательных чисел
 
 Console.WriteLine("Введите число:");
 long userNumber = Convert.ToInt64(Console.ReadLine());
@@ -16,7 +15,7 @@ if (Math.Abs(userNumber) >=100)
       {
         number = number / 10;
       }
-      long digit3 = number % 10; //остаток от деления на 10 трехзначного числа --> третья цифра
+      long digit3 = number % 10; 
       Console.WriteLine($"Третья цифра числа {userNumber}: {digit3}");
 }
 else
